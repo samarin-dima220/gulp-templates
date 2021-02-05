@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  color: $black;
+  line-height: 1.5;
+  background-color: #fafafa;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  overflow-x: hidden;
+}
+h1,h2,h3,h4,h5,h6 {
+  margin: 0;
+  padding: 0;
+  font-weight: 700;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 700;
+}
+b,strong {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+p {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  font-size: 16px;
+  color: $red;
+}
+.container {
+  max-width: 1140px;
+  padding: 0 30px;
+  margin: 0 auto;
+}
+input {
+  outline: none;
+}
+.fa {
+  color: $green;
+  font-size: 26px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+button {
+  outline: none;
+  cursor: pointer;
+}
+.page {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.s-adv {
+  padding: 55px 0;
+}
+.footer {
+  margin-top: auto;
+  background-color: #000;
+  color: $white;
+  min-height: 100px;
+  padding: 30px 0 30px;
+}
